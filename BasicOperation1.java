@@ -1,6 +1,4 @@
-
 public class BasicOperation1 {
-
 
     //Step 1 :-  Create a node of linked list
     public static class Node{
