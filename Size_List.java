@@ -39,6 +39,24 @@ public class Size_List {
         tail = newNode;
     }
 
+    // add at Spacific index
+    void addIndex(int data,int idx){
+        Node temp = head;
+        Node newNode = new Node(data);
+        size++;
+        if(idx==0){
+            addFirst(data);
+            return;
+        }
+        int i = 0;
+        while (i<idx-1) {
+            temp = temp.next;
+            i++;
+        }
+        newNode.next = temp.next;
+        temp.next = newNode;
+    }
+
     // Print list
     void traverse() {
         Node temp = head;
@@ -58,6 +76,7 @@ public class Size_List {
         list1.addFirst(10);
         list1.addFirst(20);
         list1.addLast(30);
+        list1.addIndex(1, 2);
 
         list1.traverse();
         System.out.println("Size of list: " + size);
