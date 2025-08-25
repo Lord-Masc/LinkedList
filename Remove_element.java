@@ -34,7 +34,7 @@ public class Remove_element {
         Node temp = head;
         while (temp.next!= tail) {
             temp  = temp.next;
-        }
+        }//th
         int val = tail.data;
         temp.next = null;
         tail = temp;
