@@ -65,7 +65,7 @@ public class Size_List {
             return;
         }
         while (temp != null) {
-            System.out.print(temp.data + " -> ");
+            System.out.print(temp.data + " -> "); // this is for 
             temp = temp.next;
         }
         System.out.println("null");
