@@ -69,6 +69,7 @@ public class Size_List {
             temp = temp.next;
         }
         System.out.println("null");
+        // thh
     }
 
     public static void main(String[] args) {
