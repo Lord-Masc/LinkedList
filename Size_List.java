@@ -76,7 +76,7 @@ public class Size_List {
         list1.addFirst(10);
         list1.addFirst(20);
         list1.addLast(30);
-        list1.addIndex(1, 2);
+        list1.addIndex(1, 2);  //this is my file 
 
         list1.traverse();
         System.out.println("Size of list: " + size);
